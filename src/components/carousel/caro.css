@@ -1,0 +1,40 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Acme&family=Do+Hyeon&family=Fredoka+One&family=Righteous&display=swap');
+.carosuel-item{
+    height: 90vh;
+}
+.four{
+    height: 100%;
+}
+.carosuel-item h3{
+    color:white;
+    position: relative;
+    right: 35%;
+    bottom: 250px;
+    font-size: 3.5em;
+    font-family: 'Righteous', cursive;
+    
+    
+    
+}
+p{
+    color:white;
+    position: relative;
+    right: 35%;
+    bottom: 250px;
+    font-family: 'Acme', sans-serif;
+    
+    
+}
+@media only screen and (max-width: 600px) {
+    h3,p{
+        font-size:1em;
+        
+    }
+    img{
+        height:40%;
+        width:40%;
+
+    }
+}
+
